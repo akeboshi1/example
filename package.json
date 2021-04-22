@@ -14,5 +14,7 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "example_utils": "git+ssh://git@code.apowo.com:guanxiaomin/example_utils.git"
+  }
 }

@@ -1,17 +1,10 @@
-import { Main, Localtime } from "example_utils/main";
-import { TestMath } from "example_utils/module";
+import { Localtime } from "example_utils/time";
+import { TestMath } from "example_utils/math";
+
+console.log(">>>", new Localtime())
+console.log("math",new TestMath().multi(100,100));
 
 
-export class test {
-    constructor() {
-        console.log("===>start");
-        const t = new Main();
-        t.show();
-        const time = new Localtime();
-        const a = new TestMath();
 
-        console.log("===>", a.multi(100, 10));
-    }
-}
 
 

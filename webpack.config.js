@@ -11,9 +11,9 @@ module.exports = {
         globalObject: "this"
     },
     resolve: {
-        // alias: {
-        //     "@math": path.join(__dirname, "./src/math")
-        // },
+        alias: {
+            "example_utils": path.resolve(__dirname, "node_modules/example_utils/dist/js")
+        },
         extensions: [".ts", ".js", ".json"]
     },
     module: {
@@ -30,10 +30,6 @@ module.exports = {
         }),
     ],
     devServer: {
-        writeToDisk: true,
-        watchOptions: {
-            poll: 1000,
-        },
         contentBase: path.resolve(__dirname, "./dist"),
         publicPath: "/dist",
         host: "0.0.0.0",
