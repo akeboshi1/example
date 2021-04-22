@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "target": "es5",
+      "lib": [
+        "es2015",
+        "webworker",
+        "dom"
+      ],
+      "declaration": true,
+      "sourceMap": true,
+      "outDir": "dist/types",
+      "typeRoots": [
+      ],
+      "baseUrl": ".",
+      "noImplicitUseStrict": true,
+      "alwaysStrict": false,
+    //   "paths": {
+    //     "@math": [
+    //       "./src/math"
+    //     ]
+    //   }
+    },
+    // "files": ["test.ts"],
+    "exclude": [
+      "node_modules",
+    ]
+  }
+  

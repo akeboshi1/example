@@ -1,0 +1,7 @@
+/bin-debug/*
+/bin-release/*
+/node_modules/*
+/builds/*
+/dist/*
+/release/*
+/yarn-error.log
