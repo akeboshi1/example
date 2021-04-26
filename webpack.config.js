@@ -12,7 +12,8 @@ module.exports = {
     },
     resolve: {
         alias: {
-            "example_utils": path.resolve(__dirname, "node_modules/example_utils/dist/js")
+            "example_utils": path.resolve(__dirname, "node_modules/example_utils/dist/js"),
+            "game-core": path.resolve(__dirname, "node_modules/game-core/release/js"),
         },
         extensions: [".ts", ".js", ".json"]
     },
